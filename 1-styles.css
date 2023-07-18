@@ -1,0 +1,157 @@
+/* Variables
+   ============================= */
+
+   
+:root {
+    --color-white: #FFF;
+    --font-style: normal;
+    --font-family: 'Source Sans Pro';
+    --nav-item-margin: 0 0 0 2rem;
+}
+
+.background {
+
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    border: 1px solid #979797;
+    background-image: url("./Assets/headphones_hero_1.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links a {
+
+    margin: 0px 10px;
+    font-family: var(--font-family);
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 12px;
+    font-style: var(--font-style);
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    display: flex;
+}
+
+.nav .nav-link {
+    display: block;
+    padding: 0.5rem 0;
+    position: relative;
+}
+
+
+.header-logo {
+    
+    padding:27px 200px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.header-text{
+    
+    text-align: center;     
+    padding-top: 180px;
+    color: var(--color-white);  
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header-paragraph-text {
+text-align: center;
+/* padding-top: 190px; */
+color: var(--color-white);
+font-family: var(--font-family);
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.button {
+    
+    width: 162px;
+    height: 44px;
+    flex-shrink: 0;
+    text-align: center;   
+    border-radius: 22px;
+    background: #FF6565;
+    margin-left: 550px;
+    margin-top: 1px;
+    justify-content: center;
+    
+}
+
+.button-text{
+    color: var(--color-white);    
+    padding: 20px;    
+    font-family: var(--font-family);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+    flex-shrink: 0;
+    text-decoration-line: inherit; 
+    justify-content: center;  
+}
+
+.paragraph-text p {
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    display:flex;    
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    flex-direction: column-reverse;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+ 
+/* .menu {
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    border: 1px solid #979797;
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+} */
+
+/* .footer {
+    width: 100%;
+    height: 20vh;
+    flex-shrink: 0;
+    border: 1px solid #979797;
+    background-position: center;
+    background-size: cover; 
+    object-fit: contain;
+    background-repeat: no-repeat;
+    margin-right: 20%;
+
+} */
