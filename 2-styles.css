@@ -1,0 +1,146 @@
+/* Variables
+   ============================= */
+   
+   :root {
+    --color-white: #FFF;
+    --font-style: normal;
+    --font-family: 'Source Sans Pro';
+    --nav-item-margin: 0 0 0 2rem;
+}
+
+.background {
+
+    width: 100%;
+    height: 100vh;
+    flex-shrink: 0;
+    border: 1px solid #979797;
+    background-image: url("./Assets/headphones_hero_1.jpg");
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    
+}
+
+.header{   
+    z-index: 1000;    
+   }
+   
+   .navbar{
+     margin-left: 50px;
+     margin-right: 50px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     color: white;
+     
+   }
+   .navbar-links li a{
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    display: block;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+  }
+  .navbar-links li a:hover{
+    color: white;
+  }
+  .navbar-links li:hover{ 
+    border-bottom: 1px solid rgb(255, 166, 0);
+    
+  }
+
+.homeBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+   }
+   .toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+  }
+  .toggle-button .bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+  }
+
+   .homeTexts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    max-width: 550px;
+   }
+
+   .homeTexts h3{
+    color: white;
+    font-size: 28px;
+   }
+
+   .homeTexts small{
+    color: white;
+   }
+
+   .homeTexts button{
+        background-color: #FF6565;
+        color: var(--color-white);
+        padding: 15px 30px;
+        border-radius: 22px;
+        border: none;
+        margin-top: 20px;
+   }
+
+   .homeTexts p{
+    color: white;
+    text-align: center;
+   }
+   
+   .what-we-do{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+   }
+   .we-do-text{
+    max-width: 800px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+   .we-do-text p{
+text-align: center;
+   }
+   .we-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+   }
+   .what-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+   }
+   .what-cards h5{
+    text-align: center;
+   }
+   .what-cards small{
+    text-align: center;
+   }
