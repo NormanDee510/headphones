@@ -21,9 +21,7 @@
 }
 
 
-.header-logo {
-    /* width: 161px;
-height: 32px; */
+.header-logo { 
     padding:27px 200px;
     flex-shrink: 0;
     display: flex;
